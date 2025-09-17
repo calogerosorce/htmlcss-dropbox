@@ -9,6 +9,14 @@
     margin: auto;
 }
 
+.button {
+    background-color: #0061fe;
+    color: white;
+    padding: 8px;
+    justify-content: center;
+    display: flex;
+}
+
 
 
 header {
@@ -124,8 +132,9 @@ main {
     }
 
     .business {
-        width: 50%;
+        width: 60%;
         margin: auto;
+
 
         h2 {
             padding-top: 160px;
@@ -142,18 +151,87 @@ main {
                 padding-right: 30px;
 
             }
+
+            i {
+                font-size: 15px;
+
+                &:hover {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    border: 4px solid #0061fe;
+                }
+            }
         }
 
-        i {
-            font-size: 15px;
+        .time {
+            padding-bottom: 65px;
         }
+
 
     }
 
-    i:hover {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        border: 4px solid #0061fe;
+    .row {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+
+    .plane {
+        width: calc(100% / 3);
+        border: 1px solid #dedde1;
+
+
+
+        .single {
+            padding: 0 20px;
+
+            p {
+                padding-top: 10px;
+            }
+
+            .title {
+                p {
+                    text-align: center;
+                    border-bottom: 1px solid #dedde1;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .professional {
+                h3 {
+                    padding-top: 40px;
+                }
+
+                .mese {
+                    color: #a4a2bc;
+                }
+            }
+
+            .utenze {
+                padding-top: 30px;
+            }
+
+            .lin {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                border-bottom: 1px solid #dedde1;
+            }
+
+            .salienti {
+                padding-top: 30px;
+
+
+                p {
+                    padding-bottom: 15px;
+
+                    span {
+                        color: #196cff;
+                    }
+                }
+            }
+
+        }
     }
 }
