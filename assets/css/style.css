@@ -9,13 +9,13 @@
     margin: auto;
 }
 
-.button {
+/*.button {
     background-color: #0061fe;
     color: white;
     padding: 8px;
     justify-content: center;
     display: flex;
-}
+} */
 
 
 
@@ -181,6 +181,14 @@ main {
     .plane {
         width: calc(100% / 3);
         border: 1px solid #dedde1;
+
+        .button {
+            background-color: #0061fe;
+            color: white;
+            padding: 8px;
+            justify-content: center;
+            display: flex;
+        }
 
 
 
