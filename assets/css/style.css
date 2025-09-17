@@ -3,3 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+header {
+
+    .d-flex {
+        display: flex;
+    }
+
+    nav {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px 20px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+        }
+
+        .info {
+            a {
+                padding-right: 15px;
+            }
+        }
+
+        .login {
+            a {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .start {
+        background-color: #0061fe;
+        text-align: center;
+        padding: 5px 7px;
+        color: white;
+    }
+}
+
+main {
+
+    .vision {
+        background-color: #b4d0e6;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 50px;
+        text-align: start;
+        padding-top: 50px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+
+
+        .paragraph {
+            display: flex;
+            flex-direction: column;
+            width: calc(30%);
+
+            p {
+                margin-top: 80px;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            li {
+                margin: 30px 0;
+
+            }
+
+            .button {
+                background-color: #0061fe;
+                color: white;
+                padding: 8px;
+            }
+        }
+
+        i {
+            font-size: 40px;
+        }
+
+
+
+    }
+
+    .jumbotron {
+        background-image: url(./../../img/jumbo.png);
+        background-size: 630px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: calc(70%);
+        position: relative;
+        top: 80px;
+    }
+}
