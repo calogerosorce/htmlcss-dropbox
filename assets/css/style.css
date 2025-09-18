@@ -135,6 +135,8 @@ main {
     .business {
         width: 60%;
         margin: auto;
+        padding-bottom: 180px;
+
 
         .title {
             h2 {
@@ -361,9 +363,48 @@ main {
             font-size: 40px;
             width: 60%;
         }
+    }
+}
 
-        a {
-            padding-bottom: 180px;
-        }
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+
+    .dro {
+        width: calc(100% / 5);
+    }
+
+    h3 {
+        padding-bottom: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding-bottom: 90px;
+    }
+
+    li {
+        padding-top: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #b3b3b3;
+        font-size: 14px;
+    }
+
+    p {
+        color: #b3b3b3;
+        width: 70%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        border-top: 2px solid #b3b3b3;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
     }
 }
