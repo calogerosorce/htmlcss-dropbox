@@ -303,7 +303,7 @@ main {
                 }
 
                 .professional {
-                    padding: 0 20px;
+                    padding: 0 30px;
 
                     h2 {
                         padding-top: 40px;
@@ -316,7 +316,7 @@ main {
                 }
 
                 .utenze {
-                    padding: 0 20px;
+                    padding: 0 30px;
                     padding-top: 30px;
 
                     i {
@@ -332,7 +332,7 @@ main {
                 }
 
                 .lin {
-                    padding: 0 20px;
+                    padding: 0 30px;
                     padding-top: 30px;
                     padding-bottom: 30px;
                     border-bottom: 1px solid #dedde1;
@@ -343,7 +343,7 @@ main {
                 }
 
                 .salienti {
-                    padding: 0 20px;
+                    padding: 0 30px;
                     padding-top: 30px;
 
                     .check,
