@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+
 }
 
 .container {
@@ -10,17 +11,13 @@
     margin: auto;
 }
 
-/*.button {
-    background-color: #0061fe;
-    color: white;
-    padding: 8px;
-    justify-content: center;
-    display: flex;
-} */
+
 
 
 
 header {
+
+
 
     .d-flex {
         display: flex;
@@ -31,6 +28,9 @@ header {
         flex-direction: row;
         padding: 20px 20px;
 
+
+
+
         ul {
             display: flex;
             flex-direction: row;
@@ -38,15 +38,47 @@ header {
 
         }
 
+        .start {
+            background-color: #0061fe;
+            text-align: center;
+            padding: 5px 7px;
+            color: white;
+
+            &:hover {
+                background-color: rgb(49, 94, 160);
+            }
+        }
+
         .info {
             a {
                 padding-right: 20px;
+
+                &:not(.dropb) {
+                    padding-bottom: 26px;
+                }
+
+                .dropb {
+                    padding-bottom: 40px;
+                }
+
+
+                &:hover {
+                    border-bottom: 2px solid black;
+                }
             }
         }
 
         .login {
             a {
                 margin-left: 20px;
+
+                &:not(.start) {
+                    padding-bottom: 26px;
+                }
+
+                &:hover {
+                    border-bottom: 2px solid black;
+                }
             }
         }
     }
@@ -56,16 +88,9 @@ header {
         color: black;
     }
 
-    .start {
-        background-color: #0061fe;
-        text-align: center;
-        padding: 5px 7px;
-        color: white;
-    }
 }
 
 main {
-
     .vision {
         background-color: #b4d0e6;
         padding-bottom: 20px;
@@ -111,6 +136,10 @@ main {
                 background-color: #0061fe;
                 color: white;
                 padding: 8px;
+
+                &:hover {
+                    background-color: rgb(49, 94, 160);
+                }
             }
         }
 
@@ -245,6 +274,10 @@ main {
                 padding: 8px;
                 justify-content: center;
                 display: flex;
+
+                &:hover {
+                    background-color: rgb(49, 94, 160);
+                }
             }
 
 
@@ -348,6 +381,10 @@ main {
             padding: 8px;
             justify-content: center;
             display: flex;
+
+            &:hover {
+                background-color: rgb(49, 94, 160);
+            }
         }
 
         a {
@@ -392,6 +429,10 @@ footer {
         text-decoration: none;
         color: #b3b3b3;
         font-size: 14px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     p {
@@ -407,4 +448,5 @@ footer {
         display: flex;
         flex-direction: row;
     }
+
 }
