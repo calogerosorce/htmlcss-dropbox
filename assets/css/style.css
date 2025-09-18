@@ -99,7 +99,7 @@ main {
     h1 {
         width: 70%;
         margin: 0 auto;
-        font-size: 50px;
+        font-size: 74px;
         text-align: start;
         padding-top: 50px;
     }
@@ -318,6 +318,17 @@ main {
                 .utenze {
                     padding: 0 20px;
                     padding-top: 30px;
+
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    i,
+                    p {
+                        display: flex;
+                        flex-direction: row;
+                    }
+
                 }
 
                 .lin {
@@ -325,17 +336,28 @@ main {
                     padding-top: 30px;
                     padding-bottom: 30px;
                     border-bottom: 1px solid #dedde1;
+
+                    p {
+                        padding-top: 40px;
+                    }
                 }
 
                 .salienti {
                     padding: 0 20px;
                     padding-top: 30px;
 
+                    .check,
+                    p {
+                        display: flex;
+                        flex-direction: row;
+                    }
+
 
                     p {
                         padding-bottom: 15px;
 
-                        span {
+                        .check {
+                            margin-right: 5px;
                             color: #196cff;
                         }
                     }
