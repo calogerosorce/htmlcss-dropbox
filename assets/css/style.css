@@ -187,12 +187,15 @@ main {
 
             i {
                 font-size: 15px;
+                color: white;
+                border: 2px solid #a4a2bc;
+                border-radius: 50%;
 
                 &:hover {
-                    width: 16px;
-                    height: 16px;
+                    width: 21px;
+                    height: 21px;
                     border-radius: 50%;
-                    border: 4px solid #0061fe;
+                    border: 3px solid #0061fe;
                 }
             }
         }
