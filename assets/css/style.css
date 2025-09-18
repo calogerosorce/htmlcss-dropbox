@@ -207,9 +207,11 @@ main {
         .partner {
             display: flex;
             flex-direction: row;
+            gap: 0.5rem;
 
             .photo {
                 padding-top: 150px;
+                width: 65%;
             }
 
             img {
@@ -219,7 +221,7 @@ main {
 
             .text {
                 padding-top: 190px;
-                padding-left: 50px;
+                width: 35%;
             }
 
             p {
