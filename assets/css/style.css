@@ -232,6 +232,10 @@ main {
                 padding: 10px;
                 text-decoration: none;
                 color: #b3b3b3;
+
+                &:hover {
+                    background-color: rgb(66, 65, 65);
+                }
             }
         }
 
@@ -277,6 +281,7 @@ main {
                 padding: 8px;
                 justify-content: center;
                 display: flex;
+                text-decoration: none;
 
                 &:hover {
                     background-color: rgb(49, 94, 160);
