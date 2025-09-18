@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -135,10 +136,11 @@ main {
         width: 60%;
         margin: auto;
 
-
-        h2 {
-            padding-top: 160px;
-            font-size: 30px;
+        .title {
+            h2 {
+                padding-top: 160px;
+                font-size: 30px;
+            }
         }
 
         ul {
@@ -179,8 +181,8 @@ main {
 
 
     .plane {
-        width: calc(100% / 3);
         border: 1px solid #dedde1;
+        width: calc(90% / 3);
 
         .button {
             background-color: #0061fe;
@@ -193,23 +195,28 @@ main {
 
 
         .single {
-            padding: 0 20px;
+
 
             p {
-                padding-top: 10px;
+                padding-top: 15px;
             }
 
+
             .title {
+
                 p {
                     text-align: center;
                     border-bottom: 1px solid #dedde1;
-                    padding-bottom: 10px;
+                    padding-bottom: 15px;
                 }
             }
 
             .professional {
-                h3 {
+                padding: 0 20px;
+
+                h2 {
                     padding-top: 40px;
+                    padding-bottom: 20px;
                 }
 
                 .mese {
@@ -218,16 +225,19 @@ main {
             }
 
             .utenze {
+                padding: 0 20px;
                 padding-top: 30px;
             }
 
             .lin {
+                padding: 0 20px;
                 padding-top: 30px;
                 padding-bottom: 30px;
                 border-bottom: 1px solid #dedde1;
             }
 
             .salienti {
+                padding: 0 20px;
                 padding-top: 30px;
 
 
@@ -242,4 +252,50 @@ main {
 
         }
     }
+
+}
+
+.enterprise {
+    border: 1px solid #dedde1;
+    margin-top: 35px;
+
+
+    .title {
+        border: 1px solid #dedde1;
+        margin-bottom: 35px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sub-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding: 0 30px;
+
+    }
+
+    .prize {
+        padding: 0 30px;
+    }
+
+    .contact {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .button {
+        background-color: #0061fe;
+        color: white;
+        padding: 8px;
+        justify-content: center;
+        display: flex;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
 }
